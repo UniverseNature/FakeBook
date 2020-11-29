@@ -1,0 +1,23 @@
+header{float:right;
+    margin-right:10px;
+    margin-top:10px;
+    width:40%;}
+
+#signUpContainer{background-color: darkblue;
+    right: 10px;
+    background-color: darkblue;
+    color: white;
+    text-align: center;
+    border-radius: 20%;
+    width: 50%;
+    position: absolute;
+    top:125px;
+    padding:15px;}
+
+#genderSignUp{
+    position:relative;
+    left:40%;}
+
+a {color: white;}
+
+#forgotPass{color:black !important;}
