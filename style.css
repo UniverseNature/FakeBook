@@ -1,23 +1,38 @@
 header{float:right;
-    margin-right:10px;
-    margin-top:10px;
+    margin-top: 0.7rem;
     width:40%;}
+
+#logIn{
+    border-color:lightblue;
+    background-color:lightblue;}
 
 #signUpContainer{background-color: darkblue;
     right: 10px;
-    background-color: darkblue;
     color: white;
     text-align: center;
     border-radius: 20%;
     width: 50%;
     position: absolute;
     top:125px;
-    padding:15px;}
+    padding:2%;
+    max-width:600px;}
 
 #genderSignUp{
-    position:relative;
-    left:40%;}
+    margin:0 auto;}
 
-a {color: white;}
+#whyBirthDate{
+    color:lightgray;}
+
+#youAcceptTerms, body a:nth-child(2), body a:nth-child(3), body a:nth-child(4), body a:nth-child(5){
+  color:lightgray !important;}
+
+#accCreate{
+    border-color:lightblue;
+    background-color:lightblue;}
 
 #forgotPass{color:black !important;}
+
+#logo{float:left;
+    margin-top:-1em;}
+
+body h1{margin: 1em;}
