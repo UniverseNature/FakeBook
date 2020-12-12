@@ -1,9 +1,19 @@
+/* Importing the fonts */
+
+/* CSS*/
+
+/* Login part, start point. */
+
 header{float:right;
     margin-top: 0.7rem;
     width:40%;}
 
 #logIn{border-color:lightblue;
     background-color:lightblue;}
+
+/* Login part, end point. */
+
+/* Sign up part, start point. */
 
 #signUpContainer{background-color: darkblue;
     color: white;
@@ -28,12 +38,20 @@ header{float:right;
 
 #forgotPass{color:black !important;}
 
+/* Sign up part, end point. */
+
+/* Other things, start point. */
+
 #logo{float:left;
     margin-top:-1em;}
 
 body h1{margin: 1em;}
 
 #connectImg{width:55%;}
+
+/* Other thigns, end point. */
+
+/* Feature show off part, start point. */
 
 #middlemanImage{float: right;
     margin-right:10px;}
@@ -59,3 +77,5 @@ body h1{margin: 1em;}
 #friendsImg{width:200px;
     float:right;
     margin-top:50px;}
+
+/* Feature show off part, end point*/
