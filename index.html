@@ -47,46 +47,48 @@
         <br>
 
         <!--Sign up part, below-->
-
-        <div id="signUpContainer">
-            <h3>Create an account. Its free and will always be.</h3>
-            <form action="">
-                <p>Name</p>
-                <input type="text" name="signUp" id="inputName">
-                <p>Surname</p>
-                <input type="text" name="signUp" id="inputSurname"><sup>(optional)</sup>
-                <p>Password</p>
-                <input type="password" name="signUp" id="pass">
-                <p>Confirm Password</p>
-                <input type="password" name="signUp" id="confirmPass">
-                <p>Birthday</p>
-                <p><input type="date" name="signUp"></p>
-                <a href="#" id="whyBirthDate">Why do I need to provide my date of birth?<a><br><br>
-                <table id="genderSignUp">
-                    <tr>
-                        <td class="genderLabels">Male</td>
-                        <td class="genderLabels">Female</td>
-                        <td class="genderLabels">Other</td>
-                    </tr>
-                    <tr>
-                        <td><input type="radio" name="genderSignUp signUp" class="radioGender"></td>
-                        <td><input type="radio" name="genderSignUp signUp" class="radioGender"></td>
-                        <td><input type="radio" name="genderSignUp signUp" class="radioGender"></td>
-                    </tr>            
-                </table>
-                <br>
-                <input id="accCreate" type="button" name="signUp" value="Create an account">
-                <p id="youAcceptTerms">
-                    By clicking Create an account, you agree to our <a href="#">Terms</a> and confirm that you have read our <a href="#">Data Policy</a>, 
-                    including our <a href="#">Cookie Use Policy</a>. You may receive SMS message notifications from Fakebook and can opt out at any time.
-                </p>
-            </form>
+        <div id="row_1">
+            <div>
+                <img id="connectImg" src="https://th.bing.com/th/id/OIP.MSa5DkyUtKGTgLqn5WfCcwHaEa?pid=Api&rs=1"> <!--couldnt find a better image xD-->
+            </div>
+            <div id="signUpContainer">
+                <h3>Create an account. Its free and will always be.</h3>
+                <form action="">
+                    <p>Name</p>
+                    <input type="text" name="signUp" id="inputName">
+                    <p>Surname</p>
+                    <input type="text" name="signUp" id="inputSurname"><sup>(optional)</sup>
+                    <p>Password</p>
+                    <input type="password" name="signUp" id="pass">
+                    <p>Confirm Password</p>
+                    <input type="password" name="signUp" id="confirmPass">
+                    <p>Birthday</p>
+                    <p><input type="date" name="signUp"></p>
+                    <a href="#" id="whyBirthDate">Why do I need to provide my date of birth?<a><br><br>
+                    <table id="genderSignUp">
+                        <tr>
+                            <td class="genderLabels">Male</td>
+                            <td class="genderLabels">Female</td>
+                            <td class="genderLabels">Other</td>
+                        </tr>
+                        <tr>
+                            <td><input type="radio" name="genderSignUp signUp" class="radioGender"></td>
+                            <td><input type="radio" name="genderSignUp signUp" class="radioGender"></td>
+                            <td><input type="radio" name="genderSignUp signUp" class="radioGender"></td>
+                        </tr>            
+                    </table>
+                    <br>
+                    <input id="accCreate" type="button" name="signUp" value="Create an account">
+                    <p id="youAcceptTerms">
+                        By clicking Create an account, you agree to our <a href="#">Terms</a> and confirm that you have read our <a href="#">Data Policy</a>, 
+                        including our <a href="#">Cookie Use Policy</a>. You may receive SMS message notifications from Fakebook and can opt out at any time.
+                    </p>
+                </form>
+            </div>
         </div>
 
         <!--Sign up part, above-->
 
-        <img id="connectImg" src="https://i.imgur.com/069FKWi.png"> <!--couldnt find a better image xD-->
-        
         <br><br>
         
         <!--Feature show off part, below-->
@@ -103,28 +105,45 @@
                 <img src="https://static.thenounproject.com/png/174510-200.png" id="middlemanImage">
             </div>
             
+            <hr height="2px" color="gray">
+
             <div class="col">
-                <h1>We are fully transparent</h1>
+                <h1>Fully transparent</h1>
                 <p>
                     We only receive money from donations, and we use those donations to make our platform better. We are not like those other 
                     platforms who sell your data.
                 </p>
                 <img src="https://www.flaticon.com/svg/static/icons/svg/2916/2916201.svg" id="moneyImage">
             </div>
+            <div class="col">
+                <h1></h1>
+                <p></p>
+                <img src="" id="Image">
+            </div>
         </div>
         
+        <hr height="2px" color="gray">
+
         <div id="moreFeats">
-            <img id="phoneImg" src="https://www.flaticon.com/svg/static/icons/svg/126/126341.svg">
-            <img id="friendsImg" src="https://www.flaticon.com/svg/static/icons/svg/880/880594.svg">
-            <h1>Not enough goodies?</h1>
-            We also offer :-
-            <ul>
-                <li>Free calls, no limit and no charges.</li>
-                <li>Comfy texting enviroment.</li>
-                <li>Unlimited amount of friends to meet.</li> <!--god damnit steam-->
-                <li>And the list goes on and on!</li>
-            </ul>
+            <div class="moreFeatsCols">
+                <img id="phoneImg" src="https://www.flaticon.com/svg/static/icons/svg/126/126341.svg">
+            </div>
+            <div class="moreFeatsCols">
+                <h1>Not enough goodies?</h1>
+                We also offer :-
+                <ul>
+                    <li>Free calls, no limit and no charges.</li>
+                    <li>Comfy texting enviroment.</li>
+                    <li>Unlimited amount of friends to meet.</li> <!--god damnit steam-->
+                    <li>And the list goes on and on!</li>
+                </ul>
+            </div>
+            <div class="moreFeatsCols">
+                <img id="friendsImg" src="https://www.flaticon.com/svg/static/icons/svg/880/880594.svg">
+            </div>
         </div>
+
+        <hr height="2px" color="gray">
 
         <!--Feature show off part, above-->
 
