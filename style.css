@@ -1,4 +1,4 @@
-/* Importing the fonts */
+/* Importing the fonts. */
 
 /* CSS */
 
@@ -15,9 +15,7 @@ header{float:right;
 
 /* Sign up part, start point. */
 
-#row_1{display:flex;
-    flex-direction: row;
-    width:100%;
+#row_1{width:100%;
     gap:10%;}
 
 #signUpContainer{background-color: darkblue;
@@ -32,7 +30,7 @@ header{float:right;
 
 #whyBirthDate{color:gray;}
 
-#youAcceptTerms, body a:nth-child(2), body a:nth-child(3), body a:nth-child(4), body a:nth-child(5){
+#youAcceptTerms, body a{
   color:gray !important;}
 
 #accCreate{border-color:lightblue;
@@ -49,7 +47,9 @@ header{float:right;
 
 body h1{margin: 1em;}
 
-#connectImg{width:100%;}
+#connectImg{width:80%;}
+
+#connectImg-2{margin:0 auto;}
 
 /* Other things, end point. */
 
@@ -60,7 +60,7 @@ body h1{margin: 1em;}
 
 .row{display:flex;
     flex-direction:row;
-    justify-content: center;}
+    justify-content:center;}
 
 .col{margin:0px 10px;
     padding:15px;
@@ -70,17 +70,19 @@ body h1{margin: 1em;}
 
 #moreFeats{font-size:23px;
     text-align: center;    
-    display:flex;
-    flex-direction:row;
-    justify-content: center;
     width:100%;}  
 
 #phoneImg{width:200px;
-    float:left;
     margin-top:50px;}
 
 #friendsImg{width:200px;
-    float:right;
     margin-top:50px;}
 
-/* Feature show off part, end point*/
+/* Feature show off part, end point. */
+
+/* Media queries, start point. */
+
+@media only screen and (max-width:770px){.row{display:flex;
+        flex-direction:column;}}
+
+/* Media queries, end point. */
