@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 /* Importing the fonts. */
 
 /* CSS */
@@ -116,3 +117,18 @@ header{margin-bottom:0.7rem;
         flex-direction:column;}}
 
 /* Media queries, end point. */
+=======
+body {
+    background-color: lightblue;
+}
+
+h1 {
+    color:white;
+    text-align: center;
+}
+
+p {
+    font-family: Verdana;
+    font-size: 20px;
+}
+>>>>>>> Stashed changes
