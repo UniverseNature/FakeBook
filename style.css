@@ -2,13 +2,56 @@
 
 /* CSS */
 
+/* Other things, start point. */
+
+#logo {
+    float:left;
+    margin:1em;
+    margin-top:0px;
+    background-color:whitesmoke;
+    border-radius:100%;
+}
+
+body {
+    margin:0;
+}
+
+body h1 {
+    margin: 1em;
+}
+
+.navBar {
+    list-style-type:none;
+    gap:1rem;
+    font-size:1.5rem;
+    font-family:monospace;
+    justify-content: end;
+}
+
+#connectImg {
+    width:80%;
+}
+
+#connectImg-2 {
+    margin:0 auto;
+}
+
+/* Other things, end point. */
+
 /* Login part, start point. */
 
-header{float:right;
-    margin-top: 0.7rem;
-    width:40%;}
+header{margin-bottom:0.7rem;
+    width:40%;
+    position:fixed;
+    background:blue;
+    color:lightcyan;
+    width:100%;
+    padding:2rem;}
 
-#logIn{border-color:lightblue;
+.btn{border-color:lightskyblue;
+    background-color:lightskyblue}
+
+.btn:hover{border-color:lightblue;
     background-color:lightblue;}
 
 /* Login part, end point. */
@@ -39,19 +82,6 @@ header{float:right;
 #forgotPass{color:black !important;}
 
 /* Sign up part, end point. */
-
-/* Other things, start point. */
-
-#logo{float:left;
-    margin-top:-1em;}
-
-body h1{margin: 1em;}
-
-#connectImg{width:80%;}
-
-#connectImg-2{margin:0 auto;}
-
-/* Other things, end point. */
 
 /* Feature show off part, start point. */
 
