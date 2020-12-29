@@ -1,4 +1,4 @@
-<<<<<<< Updated upstream
+
 /* Importing the fonts. */
 
 /* CSS */
@@ -13,20 +13,18 @@
     border-radius:100%;
 }
 
+p {
+    font-family: Verdana;
+}
+
+
 body {
     margin:0;
+    background-color: lightblue;
 }
 
 body h1 {
     margin: 1em;
-}
-
-.navBar {
-    list-style-type:none;
-    gap:1rem;
-    font-size:1.5rem;
-    font-family:monospace;
-    justify-content: end;
 }
 
 #connectImg {
@@ -44,10 +42,27 @@ body h1 {
 header{margin-bottom:0.7rem;
     width:40%;
     position:fixed;
-    background:blue;
+    background:rgb(0, 116, 211);
     color:lightcyan;
-    width:100%;
-    padding:2rem;}
+    width:95%;
+    padding:2rem;
+    display:flex;
+    flex-direction:row;}
+
+.navBar {
+    list-style-type:none;
+    gap:1rem;
+    font-size:1.5rem;
+    font-family:monospace;
+    display:flex;
+    flex-direction:row;
+    align-items: stretch;
+}
+
+.navBar li {
+    border:2px solid darkblue;
+    padding:0.5rem;
+}
 
 .btn{border-color:lightskyblue;
     background-color:lightskyblue}
@@ -59,16 +74,20 @@ header{margin-bottom:0.7rem;
 
 /* Sign up part, start point. */
 
-#row_1{width:100%;
-    gap:10%;}
+#row_1{width:100%;}
 
-#signUpContainer{background-color: darkblue;
+main {
+    margin-top:35vh;
+}
+
+#signUpContainer{background-color: rgb(41, 4, 110);
     color: white;
     text-align: center;
     border-radius:100px;
     width: 50%;
     padding:2%;
-    max-width:600px;}
+    max-width:600px;
+    min-width:420px;}
 
 #genderSignUp{margin:0 auto;}
 
@@ -113,22 +132,10 @@ header{margin-bottom:0.7rem;
 
 /* Media queries, start point. */
 
-@media only screen and (max-width:770px){.row{display:flex;
-        flex-direction:column;}}
+@media only screen and (max-width:770px) {
+    header * {
+        font-size:21px;
+    }
+}
 
 /* Media queries, end point. */
-=======
-body {
-    background-color: lightblue;
-}
-
-h1 {
-    color:white;
-    text-align: center;
-}
-
-p {
-    font-family: Verdana;
-    font-size: 20px;
-}
->>>>>>> Stashed changes
