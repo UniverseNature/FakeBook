@@ -1,40 +1,65 @@
 
 /* Importing the fonts. */
 
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
 /* CSS */
 
-/* Login part, start point. */
+/* Header, start point. */
 
-header {
-    width:40%;
+header { /* Adding comments here becuz this is tricky. */
+
+    /* Make the header sticky. */
+
     position:-webkit-sticky;
     position:sticky;
     top:0;
+
+    /* Style it. */
+
     background:rgb(0, 116, 211);
     color:lightcyan;
     width:100%;
+
+    /* Making this a flex container instead of .row so that it doesnt get
+    affected by the media queries. */
+
     display:flex;
     flex-direction:row;
+
+    /* Side scroll on small screen sizes. */
+
+    overflow:auto;
+}
+
+header div {
+    font-family:"MerriWeather";
 }
 
 .navBar {
     list-style-type:none;
     font-size:1.5rem;
-    font-family:monospace;
+    font-family:"Roboto mono";
     display:grid;
-    grid-template-columns: repeat(4, 33%);
+    grid-template-columns: repeat(4, 40%);
     gap:3rem;
+    text-align:center;
 }
 
-.btn{border-color:lightskyblue;
-    background-color:lightskyblue}
+.btn {
+    border-color:lightskyblue;
+    background-color:lightskyblue
+}
 
-.btn:hover{border-color:lightblue;
-    background-color:lightblue;}
+.btn:hover {
+    border-color:lightblue;
+    background-color:lightblue;
+}
 
-/* Login part, end point. */
+/* Header, end point. */
 
-/* Other things, start point. */
+/* Extra things, start point. */
 
 #logo {
     float:left;
@@ -49,6 +74,10 @@ p {
     font-family: Verdana;
 }
 
+a {
+    text-decoration:none;
+    color:white;
+}
 
 body {
     margin:0;
@@ -59,6 +88,14 @@ body h1 {
     margin: 1em;
 }
 
+/* Extra things, end point. */
+
+/* Sign up part, start point. */
+
+#row_1 {
+    width:100%;
+}
+
 #connectImg {
     width:80%;
 }
@@ -67,43 +104,50 @@ body h1 {
     margin:0 auto;
 }
 
-/* Other things, end point. */
+form div {
+    justify-content:center;
+    gap:1rem;
+}
 
-/* Sign up part, start point. */
-
-#row_1{width:100%;}
-
-#signUpContainer{background-color: rgb(41, 4, 110);
+#signUpContainer {
+    background-color: rgb(41, 4, 110);
     color: white;
     text-align: center;
     border-radius:100px;
     width: 50%;
     padding:2%;
     max-width:600px;
-    min-width:420px;}
+    min-width:420px;
+    box-shadow:8px 8px 8px gray;
+}
 
-#genderSignUp{margin:0 auto;}
+#whyBirthDate {
+    color:gray;
+}
 
-#whyBirthDate{color:gray;}
+#youAcceptTerms, #youAcceptTerms a {
+    color:gray !important;
+}
 
-#youAcceptTerms, body a{
-  color:gray !important;}
-
-#accCreate{border-color:lightblue;
-    background-color:lightblue;}
+#accCreate {
+    border-color:lightblue;
+    background-color:lightblue;
+}
 
 #forgotPass{color:black !important;}
 
 /* Sign up part, end point. */
 
-/* Feature show off part, start point. */
+/* Features, start point. */
 
+#moneyImage {
+    width:12.4em;
+}
 
-#moneyImage{width:12.4em;}
-
-.row{display:flex;
+.flex {
+    display:flex;
     flex-direction:row;
-    justify-content:center;}
+}
 
 .grid {
     display:grid;
@@ -111,21 +155,37 @@ body h1 {
     gap:0.5rem;
 }
 
-.col{margin:0px 10px;
+#feats {
+    justify-content:center;
+}
+
+.col {
+    margin:0px 10px;
     padding:15px;
-    text-align:center;}
+    text-align:center;
+}
 
-.col h1{margin:0 0;}
+.col p{
+    max-width:50%;
+    margin:0 auto;
+}
 
-#moreFeats{font-size:23px;
+.col h1 {
+    margin:0;
+}
+
+#moreFeats {
+    font-size:23px;
     text-align: center;    
-    width:100%;}  
+    width:100%;
+    justify-content:center;
+    gap:1rem;
+}  
 
-#phoneImg{width:200px;
-    margin-top:50px;}
-
-#friendsImg{width:200px;
-    margin-top:50px;}
+.moreFeatsImg {
+    width:200px;
+    margin-top:50px;
+}
 
 #evenMoreFeats {
     margin:1rem;
@@ -138,15 +198,15 @@ body h1 {
 }
 
 #evenMoreFeats div:nth-child(5) {
-    border:none;
     margin:auto;
+    border:none;
 }
 
 #evenMoreFeats img {
     width:5rem;
 }
 
-/* Feature show off part, end point. */
+/* Features, end point. */
 
 /* Media queries, start point. */
 

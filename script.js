@@ -1,2 +1,3 @@
-var alertMessage = "If you are on a device whose width is less than 320px, this website will not look the way it is intended to.";
-//alert(alertMessage);
+let alertMessage = "If possible, keep your zoom level at 100%. This will help the website look better";
+
+//alert(alertMessage); commented out because it messes with live server
